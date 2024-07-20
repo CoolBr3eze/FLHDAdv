@@ -1,0 +1,469 @@
+<script>
+<scriptversion>
+1.3
+</scriptversion>
+
+
+<data file="data\equipment\weapon_good.ini" method="append">
+<source>
+
+
+[Good]
+nickname = rs_gun_mark01
+equipment = rs_gun_mark01
+category = equipment
+price = 380000
+item_icon = equipment\models\commodities\nn_icons\EQUIPICON_gun.3db
+combinable = false
+ids_name = 0 ;GENERATESTRRES("Liberty Mk I")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>R8-F "Liberty" Liberty Laser Cannon Mk I</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This is a laser-based weapon that provides a high refire rate at a reduced damage output. This weapon is most effective against positron shields and weakest against graviton shields.</TEXT><PARA/><POP/></RDL>")
+shop_archetype = equipment\models\weapons\li_heavy_ion_blaster.cmp
+material_library = equipment\models\li_equip.mat
+
+[Good]
+nickname = missile04_mark01
+equipment = missile04_mark01
+category = equipment
+price = 10000
+item_icon = equipment\models\commodities\nn_icons\EQUIPICON_missilelauncher.3db
+combinable = false
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk1")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk1</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk1 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk1 is the 1st generation of its kind. POWER USAGE PER SHOT = 113</TEXT><PARA/><POP/></RDL>")
+shop_archetype = equipment\models\weapons\li_rad_launcher.cmp
+material_library = equipment\models\li_equip.mat
+
+[Good]
+nickname = missile04_mark02
+equipment = missile04_mark02
+category = equipment
+price = 20000
+item_icon = equipment\models\commodities\nn_icons\EQUIPICON_missilelauncher.3db
+combinable = false
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk2")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk2</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk2 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk2 is the 2nd generation of its kind. POWER USAGE PER SHOT = 227</TEXT><PARA/><POP/></RDL>")
+shop_archetype = equipment\models\weapons\li_rad_launcher.cmp
+material_library = equipment\models\li_equip.mat
+
+[Good]
+nickname = missile04_mark03
+equipment = missile04_mark03
+category = equipment
+price = 50000
+item_icon = equipment\models\commodities\nn_icons\EQUIPICON_missilelauncher.3db
+combinable = false
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk3")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk3</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk3 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk3 is the 3rd generation of its kind. POWER USAGE PER SHOT = 454</TEXT><PARA/><POP/></RDL>")
+shop_archetype = equipment\models\weapons\li_rad_launcher.cmp
+material_library = equipment\models\li_equip.mat
+
+[Good]
+nickname = missile04_mark04
+equipment = missile04_mark04
+category = equipment
+price = 150000
+item_icon = equipment\models\commodities\nn_icons\EQUIPICON_missilelauncher.3db
+combinable = false
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk4")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk4</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk4 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk4 is the 4th generation of its kind. POWER USAGE PER SHOT = 908</TEXT><PARA/><POP/></RDL>")
+shop_archetype = equipment\models\weapons\li_rad_launcher.cmp
+material_library = equipment\models\li_equip.mat
+
+[Good]
+nickname = missile04_mark05
+equipment = missile04_mark05
+category = equipment
+price = 400000
+item_icon = equipment\models\commodities\nn_icons\EQUIPICON_missilelauncher.3db
+combinable = false
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk5")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk5</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk5 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk5 is the 5th generation of its kind. POWER USAGE PER SHOT = 1815</TEXT><PARA/><POP/></RDL>")
+shop_archetype = equipment\models\weapons\li_rad_launcher.cmp
+material_library = equipment\models\li_equip.mat
+</source>
+</data>
+
+<data file="data\equipment\weapon_equip.ini" method="append">
+<source>
+
+[Munition]
+nickname = rs_gun_mark01_ammo
+hp_type = hp_gun
+requires_ammo = false
+hit_pts = 2
+hull_damage = 330
+energy_damage = 50
+one_shot_sound = fire_laser3
+munition_hit_effect = li_laser_04_impact
+const_effect = li_laser_04_proj
+lifetime = 1.43
+force_gun_ori = false
+mass = 1
+volume = 0.000100
+
+[Gun]
+nickname = rs_gun_mark01
+ids_name = 0 ;GENERATESTRRES("Liberty Mk I")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>R8-F "Liberty" Liberty Laser Cannon Mk I</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This is a laser-based weapon that provides a high refire rate at a reduced damage output. This weapon is most effective against positron shields and weakest against graviton shields.</TEXT><PARA/><POP/></RDL>")
+DA_archetype = equipment\models\weapons\li_heavy_ion_blaster.cmp
+material_library = equipment\models\li_equip.mat
+HP_child = HPConnect
+hit_pts = 67520
+explosion_resistance = 1.000000
+debris_type = debris_normal
+parent_impulse = 20
+child_impulse = 80
+volume = 0.000000
+mass = 10
+hp_gun_type = hp_gun_special_10
+damage_per_fire = 0
+power_usage = 80
+refire_delay = 0.080000
+muzzle_velocity = 1000
+use_animation = Sc_fire
+toughness = 19.600000
+flash_particle_name = li_laser_04_flash
+flash_radius = 15
+light_anim = l_gun01_flash
+projectile_archetype = rs_gun_mark01_ammo
+separation_explosion = sever_debris
+auto_turret = false
+turn_rate = 90
+lootable = true
+LODranges = 0, 20, 60, 100
+
+[Explosion]
+nickname = missile04_mark01_explosion
+effect = pi_missile01_impact
+lifetime = 0.000000, 0.000000
+process = disappear
+strength = 100
+radius = 16
+hull_damage = 600
+energy_damage = 300
+impulse = 0
+
+[Munition]
+nickname = missile04_mark01_ammo
+explosion_arch = missile04_mark01_explosion
+loot_appearance = ammo_crate
+units_per_container = 10
+hp_type = hp_gun
+requires_ammo = false
+hit_pts = 2
+one_shot_sound = fire_missile_homing
+detonation_dist = 4
+lifetime = 12.500000
+Motor = missile02_mark05_motor
+force_gun_ori = false
+const_effect = pi_missile01_drive
+HP_trail_parent = HPExhaust
+seeker = LOCK
+time_to_lock = 0
+seeker_range = 1000
+seeker_fov_deg = 90
+max_angular_velocity = 5
+DA_archetype = equipment\models\weapons\li_rad_missile.3db
+material_library = equipment\models\li_equip.mat
+ids_name = 265156
+ids_info = 266156
+mass = 1
+volume = 0.000000
+
+[Gun]
+nickname = missile04_mark01
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk1")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk1</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk1 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk1 is the 1st generation of its kind. POWER USAGE PER SHOT = 150</TEXT><PARA/><POP/></RDL>")
+DA_archetype = equipment\models\weapons\li_rad_launcher.cmp
+material_library = equipment\models\li_equip.mat
+HP_child = HPConnect
+hit_pts = 67520
+explosion_resistance = 1.000000
+debris_type = debris_normal
+parent_impulse = 20
+child_impulse = 80
+volume = 0.000000
+mass = 10
+hp_gun_type = hp_gun_special_3
+damage_per_fire = 0
+power_usage = 300
+refire_delay = 2
+muzzle_velocity = 300.299999
+toughness = 24.500000
+projectile_archetype = missile04_mark01_ammo
+dry_fire_sound = fire_dry
+separation_explosion = sever_debris
+auto_turret = false
+turn_rate = 90
+lootable = false
+LODranges = 0, 20, 60, 100
+
+[Explosion]
+nickname = missile04_mark02_explosion
+effect = pi_missile01_impact
+lifetime = 0.000000, 0.000000
+process = disappear
+strength = 100
+radius = 16
+hull_damage = 900
+energy_damage = 600
+impulse = 0
+
+[Munition]
+nickname = missile04_mark02_ammo
+explosion_arch = missile04_mark02_explosion
+loot_appearance = ammo_crate
+units_per_container = 10
+hp_type = hp_gun
+requires_ammo = false
+hit_pts = 2
+one_shot_sound = fire_missile_homing
+detonation_dist = 4
+lifetime = 12.500000
+Motor = missile02_mark05_motor
+force_gun_ori = false
+const_effect = pi_missile01_drive
+HP_trail_parent = HPExhaust
+seeker = LOCK
+time_to_lock = 0
+seeker_range = 1000
+seeker_fov_deg = 90
+max_angular_velocity = 5
+DA_archetype = equipment\models\weapons\li_rad_missile.3db
+material_library = equipment\models\li_equip.mat
+ids_name = 265156
+ids_info = 266156
+mass = 1
+volume = 0.000000
+
+[Gun]
+nickname = missile04_mark02
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk2")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk2</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk2 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk2 is the 2nd generation of its kind. POWER USAGE PER SHOT = 300</TEXT><PARA/><POP/></RDL>")
+DA_archetype = equipment\models\weapons\li_rad_launcher.cmp
+material_library = equipment\models\li_equip.mat
+HP_child = HPConnect
+hit_pts = 67520
+explosion_resistance = 1.000000
+debris_type = debris_normal
+parent_impulse = 20
+child_impulse = 80
+volume = 0.000000
+mass = 10
+hp_gun_type = hp_gun_special_5
+damage_per_fire = 0
+power_usage = 600
+refire_delay = 2
+muzzle_velocity = 300.299999
+toughness = 24.500000
+projectile_archetype = missile04_mark02_ammo
+dry_fire_sound = fire_dry
+separation_explosion = sever_debris
+auto_turret = false
+turn_rate = 90
+lootable = false
+LODranges = 0, 20, 60, 100
+
+[Explosion]
+nickname = missile04_mark03_explosion
+effect = pi_missile01_impact
+lifetime = 0.000000, 0.000000
+process = disappear
+strength = 100
+radius = 16
+hull_damage = 1500
+energy_damage = 900
+impulse = 0
+
+[Munition]
+nickname = missile04_mark03_ammo
+explosion_arch = missile04_mark03_explosion
+loot_appearance = ammo_crate
+units_per_container = 10
+hp_type = hp_gun
+requires_ammo = false
+hit_pts = 2
+one_shot_sound = fire_missile_homing
+detonation_dist = 4
+lifetime = 12.500000
+Motor = missile02_mark05_motor
+force_gun_ori = false
+const_effect = pi_missile01_drive
+HP_trail_parent = HPExhaust
+seeker = LOCK
+time_to_lock = 0
+seeker_range = 1000
+seeker_fov_deg = 90
+max_angular_velocity = 5
+DA_archetype = equipment\models\weapons\li_rad_missile.3db
+material_library = equipment\models\li_equip.mat
+ids_name = 265156
+ids_info = 266156
+mass = 1
+volume = 0.000000
+
+[Gun]
+nickname = missile04_mark03
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk3")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk3</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk3 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk3 is the 3rd generation of its kind. POWER USAGE PER SHOT = 550</TEXT><PARA/><POP/></RDL>")
+DA_archetype = equipment\models\weapons\li_rad_launcher.cmp
+material_library = equipment\models\li_equip.mat
+HP_child = HPConnect
+hit_pts = 67520
+explosion_resistance = 1.000000
+debris_type = debris_normal
+parent_impulse = 20
+child_impulse = 80
+volume = 0.000000
+mass = 10
+hp_gun_type = hp_gun_special_7
+damage_per_fire = 0
+power_usage = 1100
+refire_delay = 2
+muzzle_velocity = 300.299999
+toughness = 24.500000
+projectile_archetype = missile04_mark03_ammo
+dry_fire_sound = fire_dry
+separation_explosion = sever_debris
+auto_turret = false
+turn_rate = 90
+lootable = false
+LODranges = 0, 20, 60, 100
+
+
+[Explosion]
+nickname = missile04_mark04_explosion
+effect = pi_missile01_impact
+lifetime = 0.000000, 0.000000
+process = disappear
+strength = 100
+radius = 16
+hull_damage = 2500
+energy_damage = 1500
+impulse = 0
+
+[Munition]
+nickname = missile04_mark04_ammo
+explosion_arch = missile04_mark04_explosion
+loot_appearance = ammo_crate
+units_per_container = 10
+hp_type = hp_gun
+requires_ammo = false
+hit_pts = 2
+one_shot_sound = fire_missile_homing
+detonation_dist = 4
+lifetime = 12.500000
+Motor = missile02_mark05_motor
+force_gun_ori = false
+const_effect = pi_missile01_drive
+HP_trail_parent = HPExhaust
+seeker = LOCK
+time_to_lock = 0
+seeker_range = 1000
+seeker_fov_deg = 90
+max_angular_velocity = 5
+DA_archetype = equipment\models\weapons\li_rad_missile.3db
+material_library = equipment\models\li_equip.mat
+ids_name = 265156
+ids_info = 266156
+mass = 1
+volume = 0.000000
+
+[Gun]
+nickname = missile04_mark04
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk4")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk4</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk4 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk4 is the 4th generation of its kind. POWER USAGE PER SHOT = 1000</TEXT><PARA/><POP/></RDL>")
+DA_archetype = equipment\models\weapons\li_rad_launcher.cmp
+material_library = equipment\models\li_equip.mat
+HP_child = HPConnect
+hit_pts = 67520
+explosion_resistance = 1.000000
+debris_type = debris_normal
+parent_impulse = 20
+child_impulse = 80
+volume = 0.000000
+mass = 10
+hp_gun_type = hp_gun_special_9
+damage_per_fire = 0
+power_usage = 2000
+refire_delay = 2
+muzzle_velocity = 300.299999
+toughness = 24.500000
+projectile_archetype = missile04_mark04_ammo
+dry_fire_sound = fire_dry
+separation_explosion = sever_debris
+auto_turret = false
+turn_rate = 90
+lootable = false
+LODranges = 0, 20, 60, 100
+
+
+[Explosion]
+nickname = missile04_mark05_explosion
+effect = pi_missile01_impact
+lifetime = 0.000000, 0.000000
+process = disappear
+strength = 100
+radius = 16
+hull_damage = 6000
+energy_damage = 4000
+impulse = 0
+
+[Munition]
+nickname = missile04_mark05_ammo
+explosion_arch = missile04_mark05_explosion
+loot_appearance = ammo_crate
+units_per_container = 10
+hp_type = hp_gun
+requires_ammo = false
+hit_pts = 2
+one_shot_sound = fire_missile_homing
+detonation_dist = 4
+lifetime = 12.500000
+Motor = missile02_mark05_motor
+force_gun_ori = false
+const_effect = pi_missile01_drive
+HP_trail_parent = HPExhaust
+seeker = LOCK
+time_to_lock = 0
+seeker_range = 1000
+seeker_fov_deg = 90
+max_angular_velocity = 5
+DA_archetype = equipment\models\weapons\li_rad_missile.3db
+material_library = equipment\models\li_equip.mat
+ids_name = 265156
+ids_info = 266156
+mass = 1
+volume = 0.000000
+
+[Gun]
+nickname = missile04_mark05
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk5")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk5</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk5 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk5 is the 5th generation of its kind. POWER USAGE PER SHOT = 2000</TEXT><PARA/><POP/></RDL>")
+DA_archetype = equipment\models\weapons\li_rad_launcher.cmp
+material_library = equipment\models\li_equip.mat
+HP_child = HPConnect
+hit_pts = 67520
+explosion_resistance = 1.000000
+debris_type = debris_normal
+parent_impulse = 20
+child_impulse = 80
+volume = 0.000000
+mass = 10
+hp_gun_type = hp_gun_special_10
+damage_per_fire = 0
+power_usage = 4000
+refire_delay = 2
+muzzle_velocity = 300.299999
+toughness = 24.500000
+projectile_archetype = missile04_mark05_ammo
+dry_fire_sound = fire_dry
+separation_explosion = sever_debris
+auto_turret = false
+turn_rate = 90
+lootable = false
+LODranges = 0, 20, 60, 100
+</source>
+</data>
+
+
+</script>
