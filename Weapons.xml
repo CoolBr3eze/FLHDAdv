@@ -7,262 +7,104 @@
 <data file="data\equipment\weapon_good.ini" method="append">
 <source>
 
+
 [Good]
-nickname = special_turret01
-equipment = special_turret01
+nickname = rs_gun_mark01
+equipment = rs_gun_mark01
 category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
+price = 380000
+item_icon = equipment\models\commodities\nn_icons\EQUIPICON_gun.3db
 combinable = false
-ids_name = 0 ;GENERATESTRRES("ONYX Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: ONYX Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
+ids_name = 0 ;GENERATESTRRES("Liberty Mk I")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>R8-F "Liberty" Liberty Laser Cannon Mk I</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This is a laser-based weapon that provides a high refire rate at a reduced damage output. This weapon is most effective against positron shields and weakest against graviton shields.</TEXT><PARA/><POP/></RDL>")
+shop_archetype = equipment\models\weapons\li_heavy_ion_blaster.cmp
 material_library = equipment\models\li_equip.mat
 
 [Good]
-nickname = special_turret02
-equipment = special_turret02
+nickname = missile04_mark01
+equipment = missile04_mark01
 category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
+price = 10000
+item_icon = equipment\models\commodities\nn_icons\EQUIPICON_missilelauncher.3db
 combinable = false
-ids_name = 0 ;GENERATESTRRES("BLOODSTONE Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: BLOODSTONE Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk1")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk1</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk1 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk1 is the 1st generation of its kind. POWER USAGE PER SHOT = 113</TEXT><PARA/><POP/></RDL>")
+shop_archetype = equipment\models\weapons\li_rad_launcher.cmp
 material_library = equipment\models\li_equip.mat
 
 [Good]
-nickname = special_turret03
-equipment = special_turret03
+nickname = missile04_mark02
+equipment = missile04_mark02
 category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
+price = 20000
+item_icon = equipment\models\commodities\nn_icons\EQUIPICON_missilelauncher.3db
 combinable = false
-ids_name = 0 ;GENERATESTRRES("JADE Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: JADE Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-
-
-[Good]
-nickname = special_turret04
-equipment = special_turret04
-category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
-combinable = false
-ids_name = 0 ;GENERATESTRRES("DIAMONDBACK Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: DIAMONDBACK Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk2")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk2</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk2 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk2 is the 2nd generation of its kind. POWER USAGE PER SHOT = 227</TEXT><PARA/><POP/></RDL>")
+shop_archetype = equipment\models\weapons\li_rad_launcher.cmp
 material_library = equipment\models\li_equip.mat
 
 [Good]
-nickname = special_turret05
-equipment = special_turret05
+nickname = missile04_mark03
+equipment = missile04_mark03
 category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
+price = 50000
+item_icon = equipment\models\commodities\nn_icons\EQUIPICON_missilelauncher.3db
 combinable = false
-ids_name = 0 ;GENERATESTRRES("IRON HAMMER Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: IRON HAMMER Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk3")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk3</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk3 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk3 is the 3rd generation of its kind. POWER USAGE PER SHOT = 454</TEXT><PARA/><POP/></RDL>")
+shop_archetype = equipment\models\weapons\li_rad_launcher.cmp
 material_library = equipment\models\li_equip.mat
 
 [Good]
-nickname = special_turret06
-equipment = special_turret06
+nickname = missile04_mark04
+equipment = missile04_mark04
 category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
+price = 150000
+item_icon = equipment\models\commodities\nn_icons\EQUIPICON_missilelauncher.3db
 combinable = false
-ids_name = 0 ;GENERATESTRRES("SILVER FIRE Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: SILVER FIRE Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk4")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk4</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk4 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk4 is the 4th generation of its kind. POWER USAGE PER SHOT = 908</TEXT><PARA/><POP/></RDL>")
+shop_archetype = equipment\models\weapons\li_rad_launcher.cmp
 material_library = equipment\models\li_equip.mat
 
 [Good]
-nickname = special_turret07
-equipment = special_turret07
+nickname = missile04_mark05
+equipment = missile04_mark05
 category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
+price = 400000
+item_icon = equipment\models\commodities\nn_icons\EQUIPICON_missilelauncher.3db
 combinable = false
-ids_name = 0 ;GENERATESTRRES("GOLDEN BLADE Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: GOLDEN BLADE Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk5")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk5</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk5 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk5 is the 5th generation of its kind. POWER USAGE PER SHOT = 1815</TEXT><PARA/><POP/></RDL>")
+shop_archetype = equipment\models\weapons\li_rad_launcher.cmp
 material_library = equipment\models\li_equip.mat
-
-[Good]
-nickname = special_turret08
-equipment = special_turret08
-category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
-combinable = false
-ids_name = 0 ;GENERATESTRRES("BLUE BLAZE Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: BLUE BLAZE Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-
-[Good]
-nickname = special_turret09
-equipment = special_turret09
-category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
-combinable = false
-ids_name = 0 ;GENERATESTRRES("DARK BLOSSOM Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: DARK BLOSSOM Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-
-[Good]
-nickname = special_turret10
-equipment = special_turret10
-category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
-combinable = false
-ids_name = 0 ;GENERATESTRRES("WILD FIRE Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: WILD FIRE Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-
-[Good]
-nickname = special_turret11
-equipment = special_turret11
-category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
-combinable = false
-ids_name = 0 ;GENERATESTRRES("THOR'S HAMMER Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: THOR'S HAMMER Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-
-[Good]
-nickname = special_turret12
-equipment = special_turret12
-category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
-combinable = false
-ids_name = 0 ;GENERATESTRRES("PROMETHEUS Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: PROMETHEUS Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-
-[Good]
-nickname = special_turret13
-equipment = special_turret13
-category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
-combinable = false
-ids_name = 0 ;GENERATESTRRES("GUARDIAN Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: GUARDIAN Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-
-[Good]
-nickname = special_turret14
-equipment = special_turret14
-category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
-combinable = false
-ids_name = 0 ;GENERATESTRRES("CERBERUS Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: CERBERUS Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-
-[Good]
-nickname = special_turret15
-equipment = special_turret15
-category = equipment
-price = 2500000
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_turret.3db
-combinable = false
-ids_name = 0 ;GENERATESTRRES("ARCHANGEL Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: ARCHANGEL Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-shop_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-
-
 </source>
 </data>
 
 <data file="data\equipment\weapon_equip.ini" method="append">
 <source>
 
-[Gun]
-nickname = special_turret01
-ids_name = 0 ;GENERATESTRRES("ONYX Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: ONYX Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-HP_child = HPConnect
-hit_pts = 67520
-explosion_resistance = 1.000000
-debris_type = debris_normal
-parent_impulse = 20
-child_impulse = 80
-volume = 0.000000
-mass = 10
-hp_gun_type = hp_turret_special_10
-damage_per_fire = 0
-power_usage = 268.950012
-refire_delay = 0.300000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 21.500000
-flash_particle_name = sp_annihilator_01_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun01_ammo
-separation_explosion = sever_debris
-auto_turret = false
-turn_rate = 90
-lootable = true
-LODranges = 0, 20, 60, 100
+[Munition]
+nickname = rs_gun_mark01_ammo
+hp_type = hp_gun
+requires_ammo = false
+hit_pts = 2
+hull_damage = 330
+energy_damage = 50
+one_shot_sound = fire_laser3
+munition_hit_effect = li_laser_04_impact
+const_effect = li_laser_04_proj
+lifetime = 1.43
+force_gun_ori = false
+mass = 1
+volume = 0.000100
 
 [Gun]
-nickname = special_turret02
-ids_name = 0 ;GENERATESTRRES("BLOODSTONE Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: BLOODSTONE Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-HP_child = HPConnect
-HP_child = HPConnect
-hit_pts = 67520
-explosion_resistance = 1.000000
-debris_type = debris_normal
-parent_impulse = 20
-child_impulse = 80
-volume = 0.000000
-mass = 10
-hp_gun_type = hp_turret_special_10
-damage_per_fire = 0
-power_usage = 201
-refire_delay = 0.250000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 17.600000
-flash_particle_name = sp_annihilator_02_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun02_ammo
-separation_explosion = sever_debris
-auto_turret = false
-turn_rate = 90
-lootable = true
-LODranges = 0, 20, 60, 100
-
-[Gun]
-nickname = special_turret03
-ids_name = 0 ;GENERATESTRRES("JADE Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: JADE Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
+nickname = rs_gun_mark01
+ids_name = 0 ;GENERATESTRRES("Liberty Mk I")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>R8-F "Liberty" Liberty Laser Cannon Mk I</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This is a laser-based weapon that provides a high refire rate at a reduced damage output. This weapon is most effective against positron shields and weakest against graviton shields.</TEXT><PARA/><POP/></RDL>")
+DA_archetype = equipment\models\weapons\li_heavy_ion_blaster.cmp
 material_library = equipment\models\li_equip.mat
 HP_child = HPConnect
 hit_pts = 67520
@@ -272,28 +114,66 @@ parent_impulse = 20
 child_impulse = 80
 volume = 0.000000
 mass = 10
-hp_gun_type = hp_turret_special_10
+hp_gun_type = hp_gun_special_10
 damage_per_fire = 0
-power_usage = 161
-refire_delay = 0.200000
-muzzle_velocity = 758.299988
+power_usage = 80
+refire_delay = 0.080000
+muzzle_velocity = 1000
 use_animation = Sc_fire
 toughness = 19.600000
-flash_particle_name = sp_annihilator_03_flash
+flash_particle_name = li_laser_04_flash
 flash_radius = 15
 light_anim = l_gun01_flash
-projectile_archetype = special_gun03_ammo
+projectile_archetype = rs_gun_mark01_ammo
 separation_explosion = sever_debris
 auto_turret = false
 turn_rate = 90
 lootable = true
 LODranges = 0, 20, 60, 100
 
+[Explosion]
+nickname = missile04_mark01_explosion
+effect = pi_missile01_impact
+lifetime = 0.000000, 0.000000
+process = disappear
+strength = 100
+radius = 16
+hull_damage = 600
+energy_damage = 300
+impulse = 0
+
+[Munition]
+nickname = missile04_mark01_ammo
+explosion_arch = missile04_mark01_explosion
+loot_appearance = ammo_crate
+units_per_container = 10
+hp_type = hp_gun
+requires_ammo = false
+hit_pts = 2
+one_shot_sound = fire_missile_homing
+detonation_dist = 4
+lifetime = 12.500000
+Motor = missile02_mark05_motor
+force_gun_ori = false
+const_effect = pi_missile01_drive
+HP_trail_parent = HPExhaust
+seeker = LOCK
+time_to_lock = 0
+seeker_range = 1000
+seeker_fov_deg = 90
+max_angular_velocity = 5
+DA_archetype = equipment\models\weapons\li_rad_missile.3db
+material_library = equipment\models\li_equip.mat
+ids_name = 265156
+ids_info = 266156
+mass = 1
+volume = 0.000000
+
 [Gun]
-nickname = special_turret04
-ids_name = 0 ;GENERATESTRRES("DIAMONDBACK Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: DIAMONDBACK Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
+nickname = missile04_mark01
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk1")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk1</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk1 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk1 is the 1st generation of its kind. POWER USAGE PER SHOT = 150</TEXT><PARA/><POP/></RDL>")
+DA_archetype = equipment\models\weapons\li_rad_launcher.cmp
 material_library = equipment\models\li_equip.mat
 HP_child = HPConnect
 hit_pts = 67520
@@ -303,28 +183,63 @@ parent_impulse = 20
 child_impulse = 80
 volume = 0.000000
 mass = 10
-hp_gun_type = hp_turret_special_10
+hp_gun_type = hp_gun_special_3
 damage_per_fire = 0
-power_usage = 275
-refire_delay = 0.300000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 23.500000
-flash_particle_name = sp_bloodhound_01_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun04_ammo
+power_usage = 300
+refire_delay = 2
+muzzle_velocity = 300.299999
+toughness = 24.500000
+projectile_archetype = missile04_mark01_ammo
+dry_fire_sound = fire_dry
 separation_explosion = sever_debris
 auto_turret = false
 turn_rate = 90
-lootable = true
+lootable = false
 LODranges = 0, 20, 60, 100
 
+[Explosion]
+nickname = missile04_mark02_explosion
+effect = pi_missile01_impact
+lifetime = 0.000000, 0.000000
+process = disappear
+strength = 100
+radius = 16
+hull_damage = 900
+energy_damage = 600
+impulse = 0
+
+[Munition]
+nickname = missile04_mark02_ammo
+explosion_arch = missile04_mark02_explosion
+loot_appearance = ammo_crate
+units_per_container = 10
+hp_type = hp_gun
+requires_ammo = false
+hit_pts = 2
+one_shot_sound = fire_missile_homing
+detonation_dist = 4
+lifetime = 12.500000
+Motor = missile02_mark05_motor
+force_gun_ori = false
+const_effect = pi_missile01_drive
+HP_trail_parent = HPExhaust
+seeker = LOCK
+time_to_lock = 0
+seeker_range = 1000
+seeker_fov_deg = 90
+max_angular_velocity = 5
+DA_archetype = equipment\models\weapons\li_rad_missile.3db
+material_library = equipment\models\li_equip.mat
+ids_name = 265156
+ids_info = 266156
+mass = 1
+volume = 0.000000
+
 [Gun]
-nickname = special_turret05
-ids_name = 0 ;GENERATESTRRES("IRON HAMMER Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: IRON HAMMER Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
+nickname = missile04_mark02
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk2")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk2</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk2 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk2 is the 2nd generation of its kind. POWER USAGE PER SHOT = 300</TEXT><PARA/><POP/></RDL>")
+DA_archetype = equipment\models\weapons\li_rad_launcher.cmp
 material_library = equipment\models\li_equip.mat
 HP_child = HPConnect
 hit_pts = 67520
@@ -334,28 +249,63 @@ parent_impulse = 20
 child_impulse = 80
 volume = 0.000000
 mass = 10
-hp_gun_type = hp_turret_special_10
+hp_gun_type = hp_gun_special_5
 damage_per_fire = 0
-power_usage = 99
-refire_delay = 0.120000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 17.600000
-flash_particle_name = sp_bloodhound_02_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun05_ammo
+power_usage = 600
+refire_delay = 2
+muzzle_velocity = 300.299999
+toughness = 24.500000
+projectile_archetype = missile04_mark02_ammo
+dry_fire_sound = fire_dry
 separation_explosion = sever_debris
 auto_turret = false
 turn_rate = 90
-lootable = true
+lootable = false
 LODranges = 0, 20, 60, 100
 
+[Explosion]
+nickname = missile04_mark03_explosion
+effect = pi_missile01_impact
+lifetime = 0.000000, 0.000000
+process = disappear
+strength = 100
+radius = 16
+hull_damage = 1500
+energy_damage = 900
+impulse = 0
+
+[Munition]
+nickname = missile04_mark03_ammo
+explosion_arch = missile04_mark03_explosion
+loot_appearance = ammo_crate
+units_per_container = 10
+hp_type = hp_gun
+requires_ammo = false
+hit_pts = 2
+one_shot_sound = fire_missile_homing
+detonation_dist = 4
+lifetime = 12.500000
+Motor = missile02_mark05_motor
+force_gun_ori = false
+const_effect = pi_missile01_drive
+HP_trail_parent = HPExhaust
+seeker = LOCK
+time_to_lock = 0
+seeker_range = 1000
+seeker_fov_deg = 90
+max_angular_velocity = 5
+DA_archetype = equipment\models\weapons\li_rad_missile.3db
+material_library = equipment\models\li_equip.mat
+ids_name = 265156
+ids_info = 266156
+mass = 1
+volume = 0.000000
+
 [Gun]
-nickname = special_turret06
-ids_name = 0 ;GENERATESTRRES("SILVER FIRE Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: SILVER FIRE Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
+nickname = missile04_mark03
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk3")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk3</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk3 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk3 is the 3rd generation of its kind. POWER USAGE PER SHOT = 550</TEXT><PARA/><POP/></RDL>")
+DA_archetype = equipment\models\weapons\li_rad_launcher.cmp
 material_library = equipment\models\li_equip.mat
 HP_child = HPConnect
 hit_pts = 67520
@@ -365,28 +315,64 @@ parent_impulse = 20
 child_impulse = 80
 volume = 0.000000
 mass = 10
-hp_gun_type = hp_turret_special_10
+hp_gun_type = hp_gun_special_7
 damage_per_fire = 0
-power_usage = 270
-refire_delay = 0.300000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 21.500000
-flash_particle_name = sp_bloodhound_03_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun06_ammo
+power_usage = 1100
+refire_delay = 2
+muzzle_velocity = 300.299999
+toughness = 24.500000
+projectile_archetype = missile04_mark03_ammo
+dry_fire_sound = fire_dry
 separation_explosion = sever_debris
 auto_turret = false
 turn_rate = 90
-lootable = true
+lootable = false
 LODranges = 0, 20, 60, 100
 
+
+[Explosion]
+nickname = missile04_mark04_explosion
+effect = pi_missile01_impact
+lifetime = 0.000000, 0.000000
+process = disappear
+strength = 100
+radius = 16
+hull_damage = 2500
+energy_damage = 1500
+impulse = 0
+
+[Munition]
+nickname = missile04_mark04_ammo
+explosion_arch = missile04_mark04_explosion
+loot_appearance = ammo_crate
+units_per_container = 10
+hp_type = hp_gun
+requires_ammo = false
+hit_pts = 2
+one_shot_sound = fire_missile_homing
+detonation_dist = 4
+lifetime = 12.500000
+Motor = missile02_mark05_motor
+force_gun_ori = false
+const_effect = pi_missile01_drive
+HP_trail_parent = HPExhaust
+seeker = LOCK
+time_to_lock = 0
+seeker_range = 1000
+seeker_fov_deg = 90
+max_angular_velocity = 5
+DA_archetype = equipment\models\weapons\li_rad_missile.3db
+material_library = equipment\models\li_equip.mat
+ids_name = 265156
+ids_info = 266156
+mass = 1
+volume = 0.000000
+
 [Gun]
-nickname = special_turret07
-ids_name = 0 ;GENERATESTRRES("GOLDEN BLADE Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: GOLDEN BLADE Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
+nickname = missile04_mark04
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk4")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk4</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk4 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk4 is the 4th generation of its kind. POWER USAGE PER SHOT = 1000</TEXT><PARA/><POP/></RDL>")
+DA_archetype = equipment\models\weapons\li_rad_launcher.cmp
 material_library = equipment\models\li_equip.mat
 HP_child = HPConnect
 hit_pts = 67520
@@ -396,28 +382,64 @@ parent_impulse = 20
 child_impulse = 80
 volume = 0.000000
 mass = 10
-hp_gun_type = hp_turret_special_10
+hp_gun_type = hp_gun_special_9
 damage_per_fire = 0
-power_usage = 204
-refire_delay = 0.250000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 15.600000
-flash_particle_name = sp_destabilizer_01_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun07_ammo
+power_usage = 2000
+refire_delay = 2
+muzzle_velocity = 300.299999
+toughness = 24.500000
+projectile_archetype = missile04_mark04_ammo
+dry_fire_sound = fire_dry
 separation_explosion = sever_debris
 auto_turret = false
 turn_rate = 90
-lootable = true
+lootable = false
 LODranges = 0, 20, 60, 100
 
+
+[Explosion]
+nickname = missile04_mark05_explosion
+effect = pi_missile01_impact
+lifetime = 0.000000, 0.000000
+process = disappear
+strength = 100
+radius = 16
+hull_damage = 6000
+energy_damage = 4000
+impulse = 0
+
+[Munition]
+nickname = missile04_mark05_ammo
+explosion_arch = missile04_mark05_explosion
+loot_appearance = ammo_crate
+units_per_container = 10
+hp_type = hp_gun
+requires_ammo = false
+hit_pts = 2
+one_shot_sound = fire_missile_homing
+detonation_dist = 4
+lifetime = 12.500000
+Motor = missile02_mark05_motor
+force_gun_ori = false
+const_effect = pi_missile01_drive
+HP_trail_parent = HPExhaust
+seeker = LOCK
+time_to_lock = 0
+seeker_range = 1000
+seeker_fov_deg = 90
+max_angular_velocity = 5
+DA_archetype = equipment\models\weapons\li_rad_missile.3db
+material_library = equipment\models\li_equip.mat
+ids_name = 265156
+ids_info = 266156
+mass = 1
+volume = 0.000000
+
 [Gun]
-nickname = special_turret08
-ids_name = 0 ;GENERATESTRRES("BLUE BLAZE Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: BLUE BLAZE Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
+nickname = missile04_mark05
+ids_name = 0 ;GENERATESTRRES("Energy Missile Mk5")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Energy Missile Mk5</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>This new Energy Missile Mk5 is a very unique weapon now on the market. With a missile that does the same amount of hull and shield damage on their victim as well as extreme tracking ability. The Energy Missile Mk5 is the 5th generation of its kind. POWER USAGE PER SHOT = 2000</TEXT><PARA/><POP/></RDL>")
+DA_archetype = equipment\models\weapons\li_rad_launcher.cmp
 material_library = equipment\models\li_equip.mat
 HP_child = HPConnect
 hit_pts = 67520
@@ -427,241 +449,21 @@ parent_impulse = 20
 child_impulse = 80
 volume = 0.000000
 mass = 10
-hp_gun_type = hp_turret_special_10
+hp_gun_type = hp_gun_special_10
 damage_per_fire = 0
-power_usage = 164.500000
-refire_delay = 0.200000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 21.500000
-flash_particle_name = sp_destabilizer_02_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun08_ammo
+power_usage = 4000
+refire_delay = 2
+muzzle_velocity = 300.299999
+toughness = 24.500000
+projectile_archetype = missile04_mark05_ammo
+dry_fire_sound = fire_dry
 separation_explosion = sever_debris
 auto_turret = false
 turn_rate = 90
-lootable = true
+lootable = false
 LODranges = 0, 20, 60, 100
-
-[Gun]
-nickname = special_turret09
-ids_name = 0 ;GENERATESTRRES("DARK BLOSSOM Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: DARK BLOSSOM Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-HP_child = HPConnect
-hit_pts = 67520
-explosion_resistance = 1.000000
-debris_type = debris_normal
-parent_impulse = 20
-child_impulse = 80
-volume = 0.000000
-mass = 10
-hp_gun_type = hp_turret_special_10
-damage_per_fire = 0
-power_usage = 139.950012
-refire_delay = 0.170000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 19.600000
-flash_particle_name = sp_destabilizer_03_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun09_ammo
-separation_explosion = sever_debris
-auto_turret = false
-turn_rate = 90
-lootable = true
-LODranges = 0, 20, 60, 100
-
-[Gun]
-nickname = special_turret10
-ids_name = 0 ;GENERATESTRRES("WILD FIRE Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: WILD FIRE Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-HP_child = HPConnect
-hit_pts = 67520
-explosion_resistance = 1.000000
-debris_type = debris_normal
-parent_impulse = 20
-child_impulse = 80
-volume = 0.000000
-mass = 10
-hp_gun_type = hp_turret_special_10
-damage_per_fire = 0
-power_usage = 97.050003
-refire_delay = 0.120000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 21.500000
-flash_particle_name = sp_distortion_01_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun10_ammo
-separation_explosion = sever_debris
-auto_turret = false
-turn_rate = 90
-lootable = true
-LODranges = 0, 20, 60, 100
-
-[Gun]
-nickname = special_turret11
-ids_name = 0 ;GENERATESTRRES("THOR'S HAMMER Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: THOR'S HAMMER Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-HP_child = HPConnect
-hit_pts = 67520
-explosion_resistance = 1.000000
-debris_type = debris_normal
-parent_impulse = 20
-child_impulse = 80
-volume = 0.000000
-mass = 10
-hp_gun_type = hp_turret_special_10
-damage_per_fire = 0
-power_usage = 271
-refire_delay = 0.300000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 17.600000
-flash_particle_name = sp_distortion_02_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun11_ammo
-separation_explosion = sever_debris
-auto_turret = false
-turn_rate = 90
-lootable = true
-LODranges = 0, 20, 60, 100
-
-[Gun]
-nickname = special_turret12
-ids_name = 0 ;GENERATESTRRES("PROMETHEUS Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: PROMETHEUS Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-HP_child = HPConnect
-hit_pts = 67520
-explosion_resistance = 1.000000
-debris_type = debris_normal
-parent_impulse = 20
-child_impulse = 80
-volume = 0.000000
-mass = 10
-hp_gun_type = hp_turret_special_10
-damage_per_fire = 0
-power_usage = 204.699997
-refire_delay = 0.250000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 17.600000
-flash_particle_name = sp_distortion_03_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun12_ammo
-separation_explosion = sever_debris
-auto_turret = false
-turn_rate = 90
-lootable = true
-LODranges = 0, 20, 60, 100
-
-[Gun]
-nickname = special_turret13
-ids_name = 0 ;GENERATESTRRES("GUARDIAN Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: GUARDIAN Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-HP_child = HPConnect
-hit_pts = 67520
-explosion_resistance = 1.000000
-debris_type = debris_normal
-parent_impulse = 20
-child_impulse = 80
-volume = 0.000000
-mass = 10
-hp_gun_type = hp_turret_special_10
-damage_per_fire = 0
-power_usage = 164.950012
-refire_delay = 0.200000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 21.500000
-flash_particle_name = sp_doomsday_01_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun13_ammo
-separation_explosion = sever_debris
-auto_turret = false
-turn_rate = 90
-lootable = true
-LODranges = 0, 20, 60, 100
-
-[Gun]
-nickname = special_turret14
-ids_name = 0 ;GENERATESTRRES("CERBERUS Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: CERBERUS Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-HP_child = HPConnect
-hit_pts = 67520
-explosion_resistance = 1.000000
-debris_type = debris_normal
-parent_impulse = 20
-child_impulse = 80
-volume = 0.000000
-mass = 10
-hp_gun_type = hp_turret_special_10
-damage_per_fire = 0
-power_usage = 140.399994
-refire_delay = 0.170000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 23.500000
-flash_particle_name = sp_doomsday_02_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun14_ammo
-separation_explosion = sever_debris
-auto_turret = false
-turn_rate = 90
-lootable = true
-LODranges = 0, 20, 60, 100
-
-[Gun]
-nickname = special_turret15
-ids_name = 0 ;GENERATESTRRES("ARCHANGEL Turret")
-ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Weapon Codename: ARCHANGEL Turret</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>There is no information available on this weapon other than its project name.</TEXT><PARA/><POP/></RDL>")
-DA_archetype = equipment\models\weapons\li_smlturret.cmp
-material_library = equipment\models\li_equip.mat
-HP_child = HPConnect
-hit_pts = 67520
-explosion_resistance = 1.000000
-debris_type = debris_normal
-parent_impulse = 20
-child_impulse = 80
-volume = 0.000000
-mass = 10
-hp_gun_type = hp_turret_special_10
-damage_per_fire = 0
-power_usage = 99.950012
-refire_delay = 0.120000
-muzzle_velocity = 758.299988
-use_animation = Sc_fire
-toughness = 19.600000
-flash_particle_name = sp_doomsday_03_flash
-flash_radius = 15
-light_anim = l_gun01_flash
-projectile_archetype = special_gun15_ammo
-separation_explosion = sever_debris
-auto_turret = false
-turn_rate = 90
-lootable = true
-LODranges = 0, 20, 60, 100
-
 </source>
 </data>
+
 
 </script>
