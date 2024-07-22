@@ -1,0 +1,765 @@
+<script>
+<scriptversion>
+1.3
+</scriptversion>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237034
+ids_info = 66570
+ids_info1 = 66571
+ids_info2 = 66608
+ids_info3 = 66572
+ship_class = 0
+nickname = li_fighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Patriot")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 4/0</TEXT><PARA/><TEXT>Armor: 2210</TEXT><PARA/><TEXT>Cargo Space: 22</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 14/14</TEXT><PARA/><TEXT>Optimal Weapon Class: 2</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>Add'l Equipment: CM, M, CD</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>LZF-6364 "Patriot" Liberty Light Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>With comparable models in active Liberty Police and LSF service, the Patriot delivers state-of-the-art maneuverability and punishing firepower in one unbeatable package. Impressive extensibility and a generous cargo hold round out the top notch appointments.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>4/0</TEXT><PARA/><TEXT>2100</TEXT><PARA/><TEXT>22</TEXT><PARA/><TEXT>14/14</TEXT><PARA/><TEXT>2</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>CM, M, CD</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 0
+nickname = li_fighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237033
+ids_info = 66567
+ids_info1 = 66568
+ids_info2 = 66608
+ids_info3 = 66569
+ship_class = 1
+nickname = li_elite
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Defender MKI")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/1</TEXT><PARA/><TEXT>Armor: 5590</TEXT><PARA/><TEXT>Cargo Space: 56</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 30/30</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>Add'l Equipment: CM, M, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>BDR-337 "Defender" Liberty Medium Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>This heavily outfitted rig represents one of Liberty's technological advances and design. With its elevated armor and power rating as standard and the additional mount for firepower, this ship is the second choice of the Liberty Armed Forces.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>5/1</TEXT><PARA/><TEXT>5590</TEXT><PARA/><TEXT>56</TEXT><PARA/><TEXT>30/30</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>CM, M, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 1
+nickname = li_elite
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237033
+ids_info = 66567
+ids_info1 = 66568
+ids_info2 = 66608
+ids_info3 = 66569
+ship_class = 1
+nickname = li_elite2
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Intimidator")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/1</TEXT><PARA/><TEXT>Armor: 9880</TEXT><PARA/><TEXT>Cargo Space: 99</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 50/50</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>Add'l Equipment: CM, M, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>BDR-357 "Intimidator" Liberty Heavy Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>The Intimidator is the "combat-ready" high tech varient of the popular Defender series of Heavy Fighter's.  Mounting additional firepower and armor, a Intimidator is a fearsome adversary in combat, and a nice cargo hold for a naval very heavy fighter.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>5/1</TEXT><PARA/><TEXT>9880</TEXT><PARA/><TEXT>99</TEXT><PARA/><TEXT>50/50</TEXT><PARA/><TEXT>7</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>CM, M, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 1
+nickname = li_elite2
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237046
+ids_info = 66591
+ids_info1 = 66592
+ids_info2 = 66608
+ids_info3 = 66593
+ship_class = 2
+nickname = pi_freighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Mule")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 4/4</TEXT><PARA/><TEXT>Armor: 6240</TEXT><PARA/><TEXT>Cargo Space: 248</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 32/32</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>FR -1300 "Mule" Pirate Heavy Freighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>The lifeline of any organization is its ability to monetize opportunity. In the case of more alternative unions, this fundamental truth is even more vital. Fortunately, the Mule is the solution to the problem of moving a significant supply of goods through hazardous opposition in order to maintain these channels of commerce and opportunity.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>4/4</TEXT><PARA/><TEXT>6240</TEXT><PARA/><TEXT>248</TEXT><PARA/><TEXT>32/32</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 2
+nickname = pi_freighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237045
+ids_info = 66588
+ids_info1 = 66589
+ids_info2 = 66608
+ids_info3 = 66590
+ship_class = 0
+nickname = pi_fighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Bloodhound")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/1</TEXT><PARA/><TEXT>Armor: 3250</TEXT><PARA/><TEXT>Cargo Space: 33</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 20/20</TEXT><PARA/><TEXT>Optimal Weapon Class: 2</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Z-2010 "Bloodhound" Pirate Light Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>With its increased power capacity, the Bloodhound represents a significant threat to police forces and shipping targets in Sirius. Heavily modified from its original chassis design, this fighter is fast and can deliver a lethal payload and array of offensive weaponry. These factors make this ship of great value to alternative fighting forces everywhere.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/1</TEXT><PARA/><TEXT>3250</TEXT><PARA/><TEXT>33</TEXT><PARA/><TEXT>20/20</TEXT><PARA/><TEXT>2</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 0
+nickname = pi_fighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237044
+ids_info = 66585
+ids_info1 = 66586
+ids_info2 = 66608
+ids_info3 = 66587
+ship_class = 1
+nickname = pi_elite
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Wolfhound")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/1</TEXT><PARA/><TEXT>Armor: 7280</TEXT><PARA/><TEXT>Cargo Space: 73</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 36/36</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Z-3005 "Wolfhound" Pirate Heavy Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>"A wolf in the night," this ship has enough expanded features to ensure that it has the advantage in equal-armed conflict. The Wolfhound has enough armor and a generously amplified power output to easily wear down combatants, while also harboring enough cargo space to easily strip them down and carry off the spoils.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>5/1</TEXT><PARA/><TEXT>7280</TEXT><PARA/><TEXT>73</TEXT><PARA/><TEXT>36/36</TEXT><PARA/><TEXT>6</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 1
+nickname = pi_elite
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237022
+ids_info = 66548
+ids_info1 = 66549
+ids_info2 = 66608
+ids_info3 = 66550
+ship_class = 0
+nickname = co_fighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Legionnaire")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 4/0</TEXT><PARA/><TEXT>Armor: 3640</TEXT><PARA/><TEXT>Cargo Space: 36</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 35/35</TEXT><PARA/><TEXT>Optimal Weapon Class: 3</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>M6 Class "Legionnaire" Corsair Advanced Light Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Built for speed and agility, the Corsairs rely on their ability to get out of trouble as quickly as they can get into it. The Legionnaire fully supports this maxim while also providing significant weapon and cargo accommodations, making this a devastating offensive or defensive weapon in the hands of a skilled pilot.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>4/0</TEXT><PARA/><TEXT>3640</TEXT><PARA/><TEXT>36</TEXT><PARA/><TEXT>35/35</TEXT><PARA/><TEXT>3</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 0
+nickname = co_fighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237020
+ids_info = 66545
+ids_info1 = 66546
+ids_info2 = 66608
+ids_info3 = 66547
+ship_class = 1
+nickname = co_elite
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Centurion")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 11960</TEXT><PARA/><TEXT>Cargo Space: 120</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 55/55</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>M8 Class "Centurion" Corsair Very Heavy Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Often called the "Hand of Mephisto," the original M4 Centurion distinguished itself in combat repeatedly. Despite these victories, the Corsairs continued to refine its basic design until the result was the M8 class, which honorably bears the same moniker. The new Centurion, therefore, has not been so much manufactured as bred to be a mighty ship in every way.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>6/0</TEXT><PARA/><TEXT>11960</TEXT><PARA/><TEXT>120</TEXT><PARA/><TEXT>55/55</TEXT><PARA/><TEXT>7</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 1
+nickname = co_elite
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237021
+ids_info = 66542
+ids_info1 = 66543
+ids_info2 = 66608
+ids_info3 = 66544
+ship_class = 3
+nickname = co_elite2
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Praetorian")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/2</TEXT><PARA/><TEXT>Armor: 20280</TEXT><PARA/><TEXT>Cargo Space: 203</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 80/80</TEXT><PARA/><TEXT>Optimal Weapon Class: 8</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>M11 Class "Praetorian" Corsair Advanced Very Heavy Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>The Corsairs' survival is rooted in their ability to survive and adapt, the Praetorian is no different. On the surface the design is somewhat visually similar to the M6 Class, however the power system is a revolutionary step forward and the armor rating is the heaviest available. This provides maximum offensive and defensive capabilities while still delivering speed and maneuverability. This ship is, in short, the one.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>6/2</TEXT><PARA/><TEXT>20280</TEXT><PARA/><TEXT>203</TEXT><PARA/><TEXT>80/80</TEXT><PARA/><TEXT>8</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 3
+nickname = co_elite2
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237015
+ids_info = 66527
+ids_info1 = 66528
+ids_info2 = 66608
+ids_info3 = 66529
+ship_class = 0
+nickname = ge_fighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Sparrow")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/0</TEXT><PARA/><TEXT>Armor: 1460</TEXT><PARA/><TEXT>Cargo Space: 15</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 10/10</TEXT><PARA/><TEXT>Optimal Weapon Class: 2</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>CTE 750AE Sparrow Civilian Light Fighter </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Manufactured in the heartland of Liberty, the Sparrow is a class that is no longer in production and no longer sold. With a small cargo space and great handling this ship distinguishes itself as the veritable "workhorse for the working man."</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/0</TEXT><PARA/><TEXT>1460</TEXT><PARA/><TEXT>15</TEXT><PARA/><TEXT>10/10</TEXT><PARA/><TEXT>2</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 0
+nickname = ge_fighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237016
+ids_info = 66530
+ids_info1 = 66531
+ids_info2 = 66608
+ids_info3 = 66532
+ship_class = 0
+nickname = ge_fighter2
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Blackbird")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/1</TEXT><PARA/><TEXT>Armor: 2340</TEXT><PARA/><TEXT>Cargo Space: 23</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 15/15</TEXT><PARA/><TEXT>Optimal Weapon Class: 2</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>CTE 1270AV Blackbird Civilian Light Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Superior craftsmanship, excellent handling, a larger cargo bay, and an expanded power rating to support more energy-hungry equipment. These are the characteristics that set the Blackbird above other models of comparable price. This fighter is an excellent value in today's market.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/1</TEXT><PARA/><TEXT>2340</TEXT><PARA/><TEXT>23</TEXT><PARA/><TEXT>15/15</TEXT><PARA/><TEXT>2</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 0
+nickname = ge_fighter2
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237017
+ids_info = 66533
+ids_info1 = 66534
+ids_info2 = 66608
+ids_info3 = 66535
+ship_class = 0
+nickname = ge_fighter4
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Black Hawk")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 4/1</TEXT><PARA/><TEXT>Armor: 4290</TEXT><PARA/><TEXT>Cargo Space: 43</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 26/26</TEXT><PARA/><TEXT>Optimal Weapon Class: 4</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>CTE -1500 "Black Hawk" Civilian Medium Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Like an enormous bird of prey, the Black Hawk can sublimely snatch its targets out of the sky with tremendous grace. Its unmistakable shape casts a shadow of fear on its enemies, while the advanced power and armor ratings ensure that it can deliver the harshest of attacks or repel those foolish enough to challenge it.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>4/1</TEXT><PARA/><TEXT>4290</TEXT><PARA/><TEXT>43</TEXT><PARA/><TEXT>26/26</TEXT><PARA/><TEXT>4</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 0
+nickname = ge_fighter4
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237018
+ids_info = 66536
+ids_info1 = 66537
+ids_info2 = 66608
+ids_info3 = 66538
+ship_class = 1
+nickname = ge_fighter5
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Falcon")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/1</TEXT><PARA/><TEXT>Armor: 8450</TEXT><PARA/><TEXT>Cargo Space: 85</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 46/46</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>CTE-3000 "Falcon" Civilian Heavy Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>As the name attests, this ship is formidable and is well-deserving of the reputation that it enjoys. With a balanced combination of refined offensive and defensive technologies, the Falcon delivers an astonishing amount of potential firepower to potential adversaries quickly and efficiently.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>5/1</TEXT><PARA/><TEXT>8450</TEXT><PARA/><TEXT>85</TEXT><PARA/><TEXT>46/46</TEXT><PARA/><TEXT>6</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 1
+nickname = ge_fighter5
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237019
+ids_info = 66539
+ids_info1 = 66540
+ids_info2 = 66608
+ids_info3 = 66541
+ship_class = 3
+nickname = ge_fighter6
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Strike Eagle")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/1</TEXT><PARA/><TEXT>Armor: 13000</TEXT><PARA/><TEXT>Cargo Space: 130</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 65/65</TEXT><PARA/><TEXT>Optimal Weapon Class: 8</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>CTE -6000 "Strike Eagle" Civilian Very Heavy Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>The Strike Eagle stands vigil over the economic interests and, therefore, the ideological interests of Liberty. With its maxed-out power rating and reinforced armor plating, it is the most sophisticated and advanced vessel in the Civilian class. All in all, it delivers the maximum defensive potential and punishing offensive firepower that credits can buy.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>6/1</TEXT><PARA/><TEXT>13000</TEXT><PARA/><TEXT>130</TEXT><PARA/><TEXT>65/65</TEXT><PARA/><TEXT>8</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 3
+nickname = ge_fighter6
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237013
+ids_info = 66521
+ids_info1 = 66522
+ids_info2 = 66608
+ids_info3 = 66523
+ship_class = 0
+nickname = bw_fighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Dagger")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 4/1</TEXT><PARA/><TEXT>Armor: 2730</TEXT><PARA/><TEXT>Cargo Space: 27</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 16/16</TEXT><PARA/><TEXT>Optimal Weapon Class: 3</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Series X "Dagger" Border Worlds Light Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>It may be classified as a light fighter, but there is nothing light about this ship. With its expanded power capacity and armor rating the Dagger has all of the muscle required to survive in the harsh frontier of the Border Worlds, while still being moderately priced. An excellent choice for those craving adventure.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>4/1</TEXT><PARA/><TEXT>2730</TEXT><PARA/><TEXT>27</TEXT><PARA/><TEXT>16/16</TEXT><PARA/><TEXT>3</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 0
+nickname = bw_fighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237011
+ids_info = 66518
+ids_info1 = 66519
+ids_info2 = 66608
+ids_info3 = 66520
+ship_class = 1
+nickname = bw_elite
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Battle Axe")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 6890</TEXT><PARA/><TEXT>Cargo Space: 69</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 35/35</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Series Y "Battle Axe" Border Worlds Advanced Medium Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Men and women of action need a ship that can deliver all of the speed, resilience, and firepower available. The Battle Axe answers that call by combining exceptional weapon support, reinforced cargo space and the maximum armor rating in its class. The result is a ship that is the only true option for success and survival in the Border Worlds.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>6/0</TEXT><PARA/><TEXT>6890</TEXT><PARA/><TEXT>69</TEXT><PARA/><TEXT>35/35</TEXT><PARA/><TEXT>6</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 1
+nickname = bw_elite
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237012
+ids_info = 66515
+ids_info1 = 66516
+ids_info2 = 66608
+ids_info3 = 66517
+ship_class = 3
+nickname = bw_elite2
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Warhammer")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/1</TEXT><PARA/><TEXT>Armor: 14300</TEXT><PARA/><TEXT>Cargo Space: 143</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 70/70</TEXT><PARA/><TEXT>Optimal Weapon Class: 8</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Series Z "Warhammer" Border Worlds Very Heavy Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>As commerce and some economic freedoms began to flood the Border Worlds, so did greater access to technology and the need for change. The Warhammer is the fruit of the Border Worlds' ingenuity and pure capitalism coalesced into one lethal embodiment. This ship boasts enormous power capacity as well as extreme defensive capability.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>6/1</TEXT><PARA/><TEXT>14300</TEXT><PARA/><TEXT>143</TEXT><PARA/><TEXT>70/70</TEXT><PARA/><TEXT>8</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 3
+nickname = bw_elite2
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237014
+ids_info = 66524
+ids_info1 = 66525
+ids_info2 = 66608
+ids_info3 = 66526
+ship_class = 2
+nickname = bw_freighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Dromedary")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/6</TEXT><PARA/><TEXT>Armor: 10360</TEXT><PARA/><TEXT>Cargo Space: 415</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 46/46</TEXT><PARA/><TEXT>Optimal Weapon Class: 4</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Series YX "Dromedary" Border Worlds Very Heavy Freighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>In the frontier, the need for individuals to move great amounts of cargo securely is crucial. The Dromedary combines the best attributes of the Series YL and an entirely new reinforced structure and defensive matrix to yield and uncompromising solution for commerce and trade in the most rugged of areas.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/6</TEXT><PARA/><TEXT>10360</TEXT><PARA/><TEXT>415</TEXT><PARA/><TEXT>46/46</TEXT><PARA/><TEXT>4</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 2
+nickname = bw_freighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237041
+ids_info = 66581
+ids_info1 = 66582
+ids_info2 = 66608
+ids_info3 = 66583
+ship_class = 1
+nickname = or_elite
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Anubis")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/1</TEXT><PARA/><TEXT>Armor: 7800</TEXT><PARA/><TEXT>Cargo Space: 78</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 40/40</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>07A "Anubis" The Order Heavy Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Built from the ground up by Orillion's Corps of Engineers, the Anubis is a one-of-a-kind class of ship. It has been completely outfitted for optimal performance in combat, with the best possible balance of power, armor, and weapon extensibility. It is used by The Order to infiltrate, secure, and, if need be, quickly dominate in hostile situations. Though it is not an easy ship to fly, in the hands of a skilled pilot the Anubis is unbeatable.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>6/1</TEXT><PARA/><TEXT>7800</TEXT><PARA/><TEXT>78</TEXT><PARA/><TEXT>40/40</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 1
+nickname = or_elite
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237004
+ids_info = 66500
+ids_info1 = 66501
+ids_info2 = 66608
+ids_info3 = 66502
+ship_class = 0
+nickname = bh_fighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Gunslinger")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 4/0</TEXT><PARA/><TEXT>Armor: 2600</TEXT><PARA/><TEXT>Cargo Space: 26</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 16/16</TEXT><PARA/><TEXT>Optimal Weapon Class: 2</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>BHF-6364 "Gunslinger" Bounty Hunter Light Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>With crime on the rise, there has been resurgence in the Bounty Hunter trade. To hunt down a criminal one must think like a criminal and be armed like one too. The Gunslinger delivers expertly on this note, providing every bit of the firepower and armor needed for the job. The added cargo space for transport and delivery of captured escape pods rounds out its generous appointments.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>4/0</TEXT><PARA/><TEXT>2600</TEXT><PARA/><TEXT>26</TEXT><PARA/><TEXT>16/16</TEXT><PARA/><TEXT>2</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 0
+nickname = bh_fighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237002
+ids_info = 66497
+ids_info1 = 66498
+ids_info2 = 66608
+ids_info3 = 66499
+ship_class = 1
+nickname = bh_elite
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Desperado")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/1</TEXT><PARA/><TEXT>Armor: 5460</TEXT><PARA/><TEXT>Cargo Space: 55</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 30/30</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>BHF-7031 "Desperado" Bounty Hunter Medium Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>When the fire is thick and flack and fallout rip the competition apart, the Desperado still fights. Because of its strength and survivability in open combat as well as its stealthy, maneuverable handling, this ship distinguishes itself as the best friend of the modern Bounty Hunter. This coupled with the tricked out power array makes it an easy choice.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>6/1</TEXT><PARA/><TEXT>5460</TEXT><PARA/><TEXT>55</TEXT><PARA/><TEXT>30/30</TEXT><PARA/><TEXT>6</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 1
+nickname = bh_elite
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237003
+ids_info = 66494
+ids_info1 = 66495
+ids_info2 = 66608
+ids_info3 = 66496
+ship_class = 3
+nickname = bh_elite2
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Maverick")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/1</TEXT><PARA/><TEXT>Armor: 12060</TEXT><PARA/><TEXT>Cargo Space: 121</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 56/56</TEXT><PARA/><TEXT>Optimal Weapon Class: 8</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>BHVHF-8050 "Maverick" Bounty Hunter Very Heavy Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Desperate times call for desperate measures, in this case desperate designs. The Maverick is the result of years of work by the Bounty Hunters Guild to improve upon the traditional AP line. Its armor and power ratings have been elevated to peak levels to deliver a greater advantage to Bounty Hunters in the field.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>6/1</TEXT><PARA/><TEXT>12060</TEXT><PARA/><TEXT>121</TEXT><PARA/><TEXT>56/56</TEXT><PARA/><TEXT>8</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 3
+nickname = bh_elite2
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237053
+ids_info = 66604
+ids_info1 = 66605
+ids_info2 = 66608
+ids_info3 = 66606
+ship_class = 2
+nickname = rh_freighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Humpback")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 2/6</TEXT><PARA/><TEXT>Armor: 15080</TEXT><PARA/><TEXT>Cargo Space: 603</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 66/66</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>210-ARKM-A2 "Humpback" Rheinland Advanced Very Heavy Freighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>With a cavernous space at its core, the Humpback has a monstrously huge appetite for cargo which it mightily secures with its unyielding armor shielding and devastating weapon potential. Being credited as key in the modernization and economic success of Rheinland, it remains a greatly prized vessel.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>2/6</TEXT><PARA/><TEXT>15080</TEXT><PARA/><TEXT>603</TEXT><PARA/><TEXT>66/66</TEXT><PARA/><TEXT>7</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 2
+nickname = rh_freighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237052
+ids_info = 66601
+ids_info1 = 66602
+ids_info2 = 66608
+ids_info3 = 66603
+ship_class = 0
+nickname = rh_fighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Banshee")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/0</TEXT><PARA/><TEXT>Armor: 6370</TEXT><PARA/><TEXT>Cargo Space: 64</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 36/36</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>RMF72 "Banshee" Rheinland Advanced Medium Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>As a steed is bred for its strength as well as its grace, this majestic fighter carries on the long and distinguished tradition of Rheinland military craft. The Banshee is simply the finest ship of its kind. Its craftsmanship, its unwavering precision and reliability, and its substantial offerings for an accessible price all demonstrate Rheinland's commitment to excellence.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>5/0</TEXT><PARA/><TEXT>6370</TEXT><PARA/><TEXT>64</TEXT><PARA/><TEXT>36/36</TEXT><PARA/><TEXT>6</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 0
+nickname = rh_fighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237051
+ids_info = 66598
+ids_info1 = 66599
+ids_info2 = 66608
+ids_info3 = 66600
+ship_class = 1
+nickname = rh_elite
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Valkyrie")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/2</TEXT><PARA/><TEXT>Armor: 7540</TEXT><PARA/><TEXT>Cargo Space: 75</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 38/38</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>90-ARKM-N9 "Valkyre" Rheinland Heavy Fighter/Bomber</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>The might that flows through the arms of the Chancellor is epitomized in the god-like attributes of this fighter class. The Valkyre is the divine union of precise machination and pure, ever-glowing might; and, therefore, is most recognized as the righteous hammer of justice for the Rheinland peacekeeping forces.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>5/2</TEXT><PARA/><TEXT>7540</TEXT><PARA/><TEXT>75</TEXT><PARA/><TEXT>38/38</TEXT><PARA/><TEXT>7</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 0
+nickname = rh_elite
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237029
+ids_info = 66561
+ids_info1 = 66562
+ids_info2 = 66608
+ids_info3 = 66563
+ship_class = 2
+nickname = ku_freighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("D.S.F.")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 2/6</TEXT><PARA/><TEXT>Armor: 9360</TEXT><PARA/><TEXT>Cargo Space: 375</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 46/46</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>KFR70R - 33C "Deep Space Freighter" Kusari Very Heavy Freighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Often referred to as "bees of the golden hive," this freighter class is widely recognized as playing a key role in Kusari's trade and commercial viability. The vast cargo space and significant offensive and defensive capabilities of the D.S.F. ensure that the individual merchants are empowered to deliver.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>2/6</TEXT><PARA/><TEXT>9360</TEXT><PARA/><TEXT>375</TEXT><PARA/><TEXT>46/46</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 2
+nickname = ku_freighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237028
+ids_info = 66558
+ids_info1 = 66559
+ids_info2 = 66608
+ids_info3 = 66560
+ship_class = 0
+nickname = ku_fighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Viper")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/0</TEXT><PARA/><TEXT>Armor: 4160</TEXT><PARA/><TEXT>Cargo Space: 42</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 26/26</TEXT><PARA/><TEXT>Optimal Weapon Class: 4</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>KF7P - 7Q "Viper" Kusari Medium Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>In an environment in which the smallest mistake can cost lives, this fighter takes maximum advantage of years of Kusari research and technology all distilled down and compressed into to one deceptively small package. That, along with its recently modified power systems, makes the Viper a superior value in its class.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>5/0</TEXT><PARA/><TEXT>4160</TEXT><PARA/><TEXT>42</TEXT><PARA/><TEXT>26/26</TEXT><PARA/><TEXT>4</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 0
+nickname = ku_fighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237027
+ids_info = 66555
+ids_info1 = 66556
+ids_info2 = 66608
+ids_info3 = 66557
+ship_class = 1
+nickname = ku_elite
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Dragon")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 8580</TEXT><PARA/><TEXT>Cargo Space: 86</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 45/45</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>KHF10P - 15P "Dragon" Kusari Heavy Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>"The serpents tooth," this ship is the razor sharp maw of Kusari military knowledge and technology. The Dragon is the coalescence of form and function, blending unbeatable offensive and defensive capabilities and significant cargo space. In the hands of an experienced pilot this ship is not so much a weapon as a force of nature.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT></TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>6/0</TEXT><PARA/><TEXT>8580</TEXT><PARA/><TEXT>86</TEXT><PARA/><TEXT>45/45</TEXT><PARA/><TEXT>6</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CD/T, CM</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 1
+nickname = ku_elite
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237027
+ids_info = 66555
+ids_info1 = 66556
+ids_info2 = 66608
+ids_info3 = 66557
+ship_class = 1
+nickname = ku_dragon
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Samurai")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 12480</TEXT><PARA/><TEXT>Cargo Space: 125</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 60/60</TEXT><PARA/><TEXT>Optimal Weapon Class: 8</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CD/T, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>BDVHF34k "Samurai" Blood Dragon Very Heavy Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>The Samurai is the force of peace and prosperity.  This modern version brings peace through death... and prosperity by ending the lives of the wicked and corrupt.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>6/0</TEXT><PARA/><TEXT>12480</TEXT><PARA/><TEXT>125</TEXT><PARA/><TEXT>60/60</TEXT><PARA/><TEXT>8</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CD/T, CM</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 1
+nickname = ku_dragon
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237009
+ids_info = 66511
+ids_info1 = 66512
+ids_info2 = 66608
+ids_info3 = 66513
+ship_class = 2
+nickname = br_freighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Clydesdale")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/5</TEXT><PARA/><TEXT>Armor: 6760</TEXT><PARA/><TEXT>Cargo Space: 268</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 30/30</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>BFR-67-K "Clydesdale" Bretonia Heavy Freighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Often called "the beast of burden that built Bretonia," it certainly played a significant role in establishing Bretonia as a vital actor in trade and commerce. The cargo capacity and armor are superior to other models available on the market elsewhere, making this a leading choice for tradesmen in Bretonia and abroad.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/5</TEXT><PARA/><TEXT>6760</TEXT><PARA/><TEXT>268</TEXT><PARA/><TEXT>30/30</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 2
+nickname = br_freighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237007
+ids_info = 66505
+ids_info1 = 66506
+ids_info2 = 66608
+ids_info3 = 66507
+ship_class = 1
+nickname = br_elite
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Crusader")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 5980</TEXT><PARA/><TEXT>Cargo Space: 60</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 33/33</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>BMF-109T "Crusader" Bretonia Medium Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Known as the "crown royal" of the Medium fighter class, the Crusader is the cornerstone of the military and civil authorities. Used largely to enforce the will of the crown, this ship is designed at its core to deliver as significant a beating as it is able to withstand. Thus, the Crusader is an optimal choice for its survivability and also its significant offensive capabilities.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>6/0</TEXT><PARA/><TEXT>5980</TEXT><PARA/><TEXT>60</TEXT><PARA/><TEXT>33/33</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 1
+nickname = br_elite
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237008
+ids_info = 66508
+ids_info1 = 66509
+ids_info2 = 66608
+ids_info3 = 66510
+ship_class = 0
+nickname = br_fighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Cavalier")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 4/0</TEXT><PARA/><TEXT>Armor: 2990</TEXT><PARA/><TEXT>Cargo Space: 30</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 17/17</TEXT><PARA/><TEXT>Optimal Weapon Class: 4</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>BF-224 Series "Cavalier" Bretonia Light Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Expertly fast and agile, this fighter design is based on the "Bee-One," the class that cleared the Bretonian frontier and set the stage for the colonization of Sirius. Though patterned after this timeless classic, the Cavalier has many significant improvements and modern attributes that make it a true blue asset.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>4/0</TEXT><PARA/><TEXT>2990</TEXT><PARA/><TEXT>30</TEXT><PARA/><TEXT>17/17</TEXT><PARA/><TEXT>4</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 0
+nickname = br_fighter
+</source>
+</data>
+
+<data file="DATA\ships\shiparch.ini" method="replace">
+<dest>
+[Ship]
+ids_name = 237035
+ids_info = 66573
+ids_info1 = 66574
+ids_info2 = 66608
+ids_info3 = 66575
+ship_class = 2
+nickname = li_freighter
+</dest>
+<source>
+[Ship]
+ids_name = 0 ;GENERATESTRRES("Rhino")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/5</TEXT><PARA/><TEXT>Armor: 4160</TEXT><PARA/><TEXT>Cargo Space: 164</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 24/24</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>FR-BSY93 "Rhino" Liberty Medium Freighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>With the economic foundation of Sirius firmly built on Liberty's commercial interests, the Rhino certainly lives up to its name. The vast cargo hold is the hallmark of this impressive beast, surrounded by doubly reinforced structure and protective armor hull. This and the advanced weapon system make the Rhino a force to be reckoned with.</TEXT><PARA/><POP/></RDL></xml>")
+ids_info2 = 66608
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/5</TEXT><PARA/><TEXT>4160</TEXT><PARA/><TEXT>164</TEXT><PARA/><TEXT>24/24</TEXT><PARA/><TEXT>4</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ship_class = 2
+nickname = li_freighter
+</source>
+</data>
+
+<script>
