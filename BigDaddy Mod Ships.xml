@@ -86,10 +86,10 @@ nickname = pi_freighter
 <source>
 [Ship]
 ids_name = 0 ;GENERATESTRRES("Mule")
-ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 4/4</TEXT><PARA/><TEXT>Armor: 6240</TEXT><PARA/><TEXT>Cargo Space: 90</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 900/900</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 4/4</TEXT><PARA/><TEXT>Armor: 6240</TEXT><PARA/><TEXT>Cargo Space: 270</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 900/900</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
 ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>FR -1300 "Mule" Pirate Heavy Freighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>The lifeline of any organization is its ability to monetize opportunity. In the case of more alternative unions, this fundamental truth is even more vital. Fortunately, the Mule is the solution to the problem of moving a significant supply of goods through hazardous opposition in order to maintain these channels of commerce and opportunity.</TEXT><PARA/><POP/></RDL></xml>")
 ids_info2 = 66608
-ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>4/4</TEXT><PARA/><TEXT>6240</TEXT><PARA/><TEXT>90</TEXT><PARA/><TEXT>900/900</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>4/4</TEXT><PARA/><TEXT>6240</TEXT><PARA/><TEXT>270</TEXT><PARA/><TEXT>900/900</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
 ship_class = 2
 nickname = pi_freighter
 </source>
@@ -408,10 +408,10 @@ nickname = bw_freighter
 <source>
 [Ship]
 ids_name = 0 ;GENERATESTRRES("Dromedary")
-ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/6</TEXT><PARA/><TEXT>Armor: 10360</TEXT><PARA/><TEXT>Cargo Space: 350</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 3500/3500</TEXT><PARA/><TEXT>Optimal Weapon Class: 4</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/6</TEXT><PARA/><TEXT>Armor: 10360</TEXT><PARA/><TEXT>Cargo Space: 1050</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 3500/3500</TEXT><PARA/><TEXT>Optimal Weapon Class: 4</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
 ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Series YX "Dromedary" Border Worlds Very Heavy Freighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>In the frontier, the need for individuals to move great amounts of cargo securely is crucial. The Dromedary combines the best attributes of the Series YL and an entirely new reinforced structure and defensive matrix to yield and uncompromising solution for commerce and trade in the most rugged of areas.</TEXT><PARA/><POP/></RDL></xml>")
 ids_info2 = 66608
-ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/6</TEXT><PARA/><TEXT>10360</TEXT><PARA/><TEXT>350</TEXT><PARA/><TEXT>3500/3500</TEXT><PARA/><TEXT>4</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/6</TEXT><PARA/><TEXT>10360</TEXT><PARA/><TEXT>1050</TEXT><PARA/><TEXT>3500/3500</TEXT><PARA/><TEXT>4</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
 ship_class = 2
 nickname = bw_freighter
 </source>
@@ -524,10 +524,10 @@ nickname = rh_freighter
 <source>
 [Ship]
 ids_name = 0 ;GENERATESTRRES("Humpback")
-ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 2/6</TEXT><PARA/><TEXT>Armor: 15080</TEXT><PARA/><TEXT>Cargo Space: 250</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 2500/2500</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 2/6</TEXT><PARA/><TEXT>Armor: 15080</TEXT><PARA/><TEXT>Cargo Space: 750</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 2500/2500</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
 ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>210-ARKM-A2 "Humpback" Rheinland Advanced Very Heavy Freighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>With a cavernous space at its core, the Humpback has a monstrously huge appetite for cargo which it mightily secures with its unyielding armor shielding and devastating weapon potential. Being credited as key in the modernization and economic success of Rheinland, it remains a greatly prized vessel.</TEXT><PARA/><POP/></RDL></xml>")
 ids_info2 = 66608
-ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>2/6</TEXT><PARA/><TEXT>15080</TEXT><PARA/><TEXT>250</TEXT><PARA/><TEXT>2500/2500</TEXT><PARA/><TEXT>7</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>2/6</TEXT><PARA/><TEXT>15080</TEXT><PARA/><TEXT>750</TEXT><PARA/><TEXT>2500/2500</TEXT><PARA/><TEXT>7</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
 ship_class = 2
 nickname = rh_freighter
 </source>
@@ -593,10 +593,10 @@ nickname = ku_freighter
 <source>
 [Ship]
 ids_name = 0 ;GENERATESTRRES("D.S.F.")
-ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 2/6</TEXT><PARA/><TEXT>Armor: 9360</TEXT><PARA/><TEXT>Cargo Space: 175</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 1750/1750</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 2/6</TEXT><PARA/><TEXT>Armor: 9360</TEXT><PARA/><TEXT>Cargo Space: 525</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 1750/1750</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
 ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>KFR70R - 33C "Deep Space Freighter" Kusari Very Heavy Freighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Often referred to as "bees of the golden hive," this freighter class is widely recognized as playing a key role in Kusari's trade and commercial viability. The vast cargo space and significant offensive and defensive capabilities of the D.S.F. ensure that the individual merchants are empowered to deliver.</TEXT><PARA/><POP/></RDL></xml>")
 ids_info2 = 66608
-ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>2/6</TEXT><PARA/><TEXT>9360</TEXT><PARA/><TEXT>175</TEXT><PARA/><TEXT>1750/1750</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>2/6</TEXT><PARA/><TEXT>9360</TEXT><PARA/><TEXT>525</TEXT><PARA/><TEXT>1750/1750</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
 ship_class = 2
 nickname = ku_freighter
 </source>
@@ -685,10 +685,10 @@ nickname = br_freighter
 <source>
 [Ship]
 ids_name = 0 ;GENERATESTRRES("Clydesdale")
-ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/5</TEXT><PARA/><TEXT>Armor: 6760</TEXT><PARA/><TEXT>Cargo Space: 125</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 1250/1250</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/5</TEXT><PARA/><TEXT>Armor: 6760</TEXT><PARA/><TEXT>Cargo Space: 375</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 1250/1250</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><PARA/><POP/></RDL></xml>")
 ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>BFR-67-K "Clydesdale" Bretonia Heavy Freighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Often called "the beast of burden that built Bretonia," it certainly played a significant role in establishing Bretonia as a vital actor in trade and commerce. The cargo capacity and armor are superior to other models available on the market elsewhere, making this a leading choice for tradesmen in Bretonia and abroad.</TEXT><PARA/><POP/></RDL></xml>")
 ids_info2 = 66608
-ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/5</TEXT><PARA/><TEXT>6760</TEXT><PARA/><TEXT>125</TEXT><PARA/><TEXT>1250/1250</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/5</TEXT><PARA/><TEXT>6760</TEXT><PARA/><TEXT>375</TEXT><PARA/><TEXT>1250/1250</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
 ship_class = 2
 nickname = br_freighter
 </source>
@@ -754,10 +754,10 @@ nickname = li_freighter
 <source>
 [Ship]
 ids_name = 0 ;GENERATESTRRES("Rhino")
-ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/5</TEXT><PARA/><TEXT>Armor: 4160</TEXT><PARA/><TEXT>Cargo Space: 80</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 24/24</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
+ids_info = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/5</TEXT><PARA/><TEXT>Armor: 4160</TEXT><PARA/><TEXT>Cargo Space: 240</TEXT><PARA/><TEXT>Max Batteries/Repair Kits: 24/24</TEXT><PARA/><TEXT>Optimal Weapon Class: 5</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL></xml>")
 ids_info1 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>FR-BSY93 "Rhino" Liberty Medium Freighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>With the economic foundation of Sirius firmly built on Liberty's commercial interests, the Rhino certainly lives up to its name. The vast cargo hold is the hallmark of this impressive beast, surrounded by doubly reinforced structure and protective armor hull. This and the advanced weapon system make the Rhino a force to be reckoned with.</TEXT><PARA/><POP/></RDL></xml>")
 ids_info2 = 66608
-ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/5</TEXT><PARA/><TEXT>4160</TEXT><PARA/><TEXT>80</TEXT><PARA/><TEXT>800/800</TEXT><PARA/><TEXT>4</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
+ids_info3 = 0 ;GENERATEXMLRES("<xml><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/5</TEXT><PARA/><TEXT>4160</TEXT><PARA/><TEXT>240</TEXT><PARA/><TEXT>800/800</TEXT><PARA/><TEXT>4</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM</TEXT><PARA/><POP/></RDL></xml>")
 ship_class = 2
 nickname = li_freighter
 </source>
