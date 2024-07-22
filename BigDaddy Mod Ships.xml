@@ -417,6 +417,7 @@ nickname = bw_freighter
 </source>
 </data>
 
+
 <data file="DATA\ships\shiparch.ini" method="replace">
 <dest>
 [Ship]
@@ -425,7 +426,7 @@ ids_info = 66581
 ids_info1 = 66582
 ids_info2 = 66608
 ids_info3 = 66583
-ship_class = 1
+ship_class = 3
 nickname = or_elite
 </dest>
 <source>
