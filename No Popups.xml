@@ -1,0 +1,279 @@
+<script>
+<scriptversion>
+1.3
+</scriptversion>
+
+<data file="data\missions\m01a\m01a.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = rtcd_cityscape
+</section>
+<dest>
+Act_Popupdialog = 21891, 21925, CLOSE
+Act_ActTrig = pux_objectivepop
+
+[Trigger]
+nickname = pux_objectivepop
+Cnd_PopUpDialog = CLOSE
+Act_SetNNObj = mlog_job
+</dest>
+<source>
+Act_SetNNObj = mlog_job
+</source>
+</data>
+
+<data file="data\missions\m01a\m01a.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = rtcd_bar
+</section>
+<dest>
+Act_ActTrig = pux_roomnav
+Act_Popupdialog = 21892, 21930, CLOSE
+
+[Trigger]
+nickname = pux_roomnav
+Cnd_PopUpDialog = CLOSE
+Act_SetNNObj = mlog_juni
+</dest>
+<source>
+Act_SetNNObj = mlog_juni
+</source>
+</data>
+
+<data file="data\missions\m01a\m01a.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = lce_setfirstobj
+</section>
+<dest>
+Act_Popupdialog = 21893, 21935, CLOSE
+Act_ActTrig = pux_toprtUI
+
+[Trigger]
+nickname = pux_toprtUI
+Cnd_PopUpDialog = CLOSE
+Act_SetNNObj = mlog_54747
+</dest>
+<source>
+Act_SetNNObj = mlog_54747
+</source>
+</data>
+
+<data file="data\missions\m01a\m01a.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = tm_combatbasics
+</section>
+<dest>
+Cnd_Timer = 7
+Act_Popupdialog = 21894, 21940, CLOSE
+</dest>
+<source>
+Cnd_Timer = 7
+</source>
+</data>
+
+<data file="data\missions\m01a\m01a.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = com_0340
+</section>
+<dest>
+Act_ActTrig = com_0350
+Act_SpawnLoot = trainingloot
+Act_Popupdialog = 21895, 21945, CLOSE
+</dest>
+<source>
+Act_ActTrig = com_0350
+</source>
+</data>
+
+<data file="data\missions\m01a\m01a.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = com_0375
+</section>
+<dest>
+Act_SetNNObj = mlog_TL1
+Act_Popupdialog = 21840, 21900, CLOSE
+</dest>
+<source>
+Act_SetNNObj = mlog_TL1
+</source>
+</data>
+
+<data file="data\missions\m01a\m01a.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = com_0410
+</section>
+<dest>
+Cnd_CommComplete = DX_M01_0410_KING
+Act_Popupdialog = 21855, 21905, CLOSE
+</dest>
+<source>
+Cnd_CommComplete = DX_M01_0410_KING
+</source>
+</data>
+
+<data file="data\missions\m01a\m01a.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = wt_P1_formstatus_FtBush_on
+</section>
+<dest>
+Act_SetNNObj = mlog_21850
+Act_Popupdialog = 21850, 21910, CLOSE
+</dest>
+<source>
+Act_SetNNObj = mlog_21850
+</source>
+</data>
+
+<data file="data\missions\m01a\m01a.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = tm_shieldpopup
+</section>
+<dest>
+Cnd_Timer = 4
+Act_Popupdialog = 21896, 21946, CLOSE
+</dest>
+<source>
+Cnd_Timer = 4
+</source>
+</data>
+
+<data file="data\missions\m01a\m01a.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = com_0685
+</section>
+<dest>
+Act_EnableManeuver = Dock, true
+Act_Popupdialog = 21870, 21915, CLOSE
+</dest>
+<source>
+Act_EnableManeuver = Dock, true
+</source>
+</data>
+
+<data file="data\missions\m01a\m01a.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = pmn_levelledup
+</section>
+<dest>
+Cnd_PlayerManeuver = Dock, Li01_02_dock_ring
+Act_Popupdialog = 21885, 21920, CLOSE
+</dest>
+<source>
+Cnd_PlayerManeuver = Dock, Li01_02_dock_ring
+</source>
+</data>
+
+<data file="data\missions\m01a\m01a.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = com_0997
+</section>
+<dest>
+Act_EnableManeuver = Dock, true
+Act_Popupdialog = 21870, 21915, CLOSE
+</dest>
+<source>
+Act_EnableManeuver = Dock, true
+</source>
+</data>
+
+<data file="data\missions\m01b\m01b.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = com_1200
+</section>
+<dest>
+Act_NNIds = 30100, HISTORY
+Act_Popupdialog = 22025, 22100, CLOSE
+</dest>
+<source>
+Act_NNIds = 30100, HISTORY
+</source>
+</data>
+
+<data file="data\missions\m01b\m01b.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = com_1585
+</section>
+<dest>
+Act_Invulnerable = escort, true, false
+Act_Popupdialog = 21897, 21947, CLOSE
+</dest>
+<source>
+Act_Invulnerable = escort, true, false
+</source>
+</data>
+
+<data file="data\missions\m02\m02.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = watching_0301
+</section>
+<dest>
+Act_SetNNObj = start_scanning
+Act_PopUpDialog = 22240, 22207, CLOSE
+</dest>
+<source>
+Act_SetNNObj = start_scanning
+</source>
+</data>
+
+<data file="data\missions\m02\m02.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = popup_to_scan
+</section>
+<dest>
+Cnd_CommComplete = DX_m02_0320_KING
+Act_PopUpDialog = 22240, 22207, CLOSE
+</dest>
+<source>
+Cnd_CommComplete = DX_m02_0320_KING
+</source>
+</data>
+
+<data file="data\missions\m03\m03.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = lce_cityscape_Li01_01_base
+</section>
+<dest>
+Cnd_LocEnter = Cityscape, Li01_01_base
+Act_Popupdialog = 22535, 22530, CLOSE
+</dest>
+<source>
+Cnd_LocEnter = Cityscape, Li01_01_base
+</source>
+</data>
+
+<data file="data\missions\m06\m06.ini" method="sectionreplace">
+<section>
+[Trigger]
+nickname = wt_popup_2ndrace_off
+</section>
+<dest>
+Act_Popupdialog = 23011, 23010, CLOSE
+Act_ActTrig = pux_race
+
+[Trigger]
+nickname = pux_race
+Cnd_PopUpDialog = CLOSE
+Act_ActTrig = tr_theyreoff
+</dest>
+<source>
+Act_ActTrig = tr_theyreoff
+</source>
+</data>
+
+</script>
