@@ -2,10 +2,76 @@
 <scriptversion>
 1.3
 </scriptversion>
+
+
+;////////////////SCANNERS TBEAM////////////////
 ;////////////////Armor////////////////
 
 <data file="DATA\EQUIPMENT\misc_equip.ini" method="append">
 <source>
+
+[Scanner]
+nickname = ge_s_scanner_01
+ids_name = 0 ;GENERATESTRRES("Scanner")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Scanner</TEXT><PARA/><TEXT></TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>Range: 2500m</TEXT><PARA/><TEXT>Cargo Scan Range: 2000m</TEXT><PARA/><PARA/><POP/></RDL>")
+volume = 0.000000
+mass = 10
+range = 2500
+cargo_scan_range = 2000
+lootable = true
+
+[Scanner]
+nickname = ge_s_scanner_02
+ids_name = 0 ;GENERATESTRRES("Deep Scanner")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Deep Scanner</TEXT><PARA/><TEXT></TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>Range: 4500m</TEXT><PARA/><TEXT>Cargo Scan Range: 2500m</TEXT><PARA/><PARA/><POP/></RDL>")
+volume = 0.000000
+mass = 10
+range = 4500
+cargo_scan_range = 2500
+lootable = true
+
+[Scanner]
+nickname = ge_s_scanner_03
+ids_name = 0 ;GENERATESTRRES("Advanced Deep Scanner")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Advanced Deep Scanner</TEXT><PARA/><TEXT></TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>Range: 7000m</TEXT><PARA/><TEXT>Cargo Scan Range: 3000m</TEXT><PARA/><PARA/><POP/></RDL>")
+volume = 0.000000
+mass = 10
+range = 7000
+cargo_scan_range = 3000
+lootable = true
+
+[Tractor]
+nickname = ge_s_tractor_01
+ids_name = 0 ;GENERATESTRRES("Tractor Beam")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Projects energy beams to manipulate or retrieve objects in space. Uses a variation of the same technology that produces energy shields</TEXT><PARA/><TEXT></TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>Range: 3000m</TEXT><PARA/><TEXT>Extend Speed: 5000m/s</TEXT><PARA/><TEXT>Capacity: Tons</TEXT><PARA/><PARA/><POP/></RDL>")
+volume = 0.000000
+mass = 10
+max_length = 3000
+reach_speed = 5000
+color = 255, 128, 0
+operating_effect = tractor_beam
+tractor_complete_snd = tractor_complete
+lootable = true
+
+[Scanner]
+nickname = ge_s_scanner_05
+ids_name = 0 ;GENERATESTRRES("Nomad Scanner")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Nomad Scanner</TEXT><PARA/><TEXT></TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>Range: Unknown</TEXT><PARA/><TEXT>Cargo Scan Range: Unknown</TEXT><PARA/><PARA/><POP/></RDL>")
+volume = 0.000000
+mass = 10
+range = 10000
+cargo_scan_range = 4000
+lootable = true
+
+[Scanner]
+nickname = ge_s_scanner_06
+ids_name = 0 ;GENERATESTRRES("Military Scanner")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Military Scanner</TEXT><PARA/><TEXT></TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>Range: 20000m</TEXT><PARA/><TEXT>Cargo Scan Range: 10000m</TEXT><PARA/><PARA/><POP/></RDL>")
+volume = 0.000000
+mass = 10
+range = 20000
+cargo_scan_range = 10000
+lootable = false
 
 
 [Armor]
@@ -645,6 +711,72 @@ lootable = false
 <data file="DATA\EQUIPMENT\misc_good.ini" method="append">
 <source>
 
+[Good]
+nickname = ge_s_scanner_01
+equipment = ge_s_scanner_01
+category = equipment
+ids_name = 0 ;GENERATESTRRES("Scanner")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Scanner</TEXT><PARA/><TEXT></TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>Range: 2500m</TEXT><PARA/><TEXT>Cargo Scan Range: 2000m</TEXT><PARA/><PARA/><POP/></RDL>")
+price = 5000
+combinable = false
+item_icon = equipment\models\commodities\nn_icons\equipicon_radarjammer.3db
+shop_archetype = equipment\models\commodities\crates\crate_grey.3db
+
+[Good]
+nickname = ge_s_scanner_02
+equipment = ge_s_scanner_02
+category = equipment
+ids_name = 0 ;GENERATESTRRES("Deep Scanner")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Deep Scanner</TEXT><PARA/><TEXT></TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>Range: 4500m</TEXT><PARA/><TEXT>Cargo Scan Range: 2500m</TEXT><PARA/><PARA/><POP/></RDL>")
+price = 25000
+combinable = false
+item_icon = equipment\models\commodities\nn_icons\equipicon_radarjammer.3db
+shop_archetype = equipment\models\commodities\crates\crate_grey.3db
+
+[Good]
+nickname = ge_s_scanner_03
+equipment = ge_s_scanner_03
+category = equipment
+ids_name = 0 ;GENERATESTRRES("Advanced Deep Scanner")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Advanced Deep Scanner</TEXT><PARA/><TEXT></TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>Range: 7000m</TEXT><PARA/><TEXT>Cargo Scan Range: 3000m</TEXT><PARA/><PARA/><POP/></RDL>")
+price = 50000
+combinable = false
+item_icon = equipment\models\commodities\nn_icons\equipicon_radarjammer.3db
+shop_archetype = equipment\models\commodities\crates\crate_grey.3db
+
+[Good]
+nickname = ge_s_tractor_01
+equipment = ge_s_tractor_01
+category = equipment
+ids_name = 0 ;GENERATESTRRES("Tractor Beam")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Tractor Beam</TEXT><PARA/><TEXT></TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>Range: 3000m</TEXT><PARA/><TEXT>Extend Speed: 5000m/s</TEXT><PARA/><TEXT>Capacity: kilos</TEXT><PARA/><PARA/><POP/></RDL>")
+price = 5500
+item_icon = equipment\models\commodities\nn_icons\transport.3db
+combinable = False
+shop_archetype = equipment\models\commodities\crates\crate_grey.3db
+
+[Good]
+nickname = ge_s_scanner_05
+equipment = ge_s_scanner_05
+category = equipment
+ids_name = 0 ;GENERATESTRRES("Nomad Scanner")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Nomad Scanner</TEXT><PARA/><TEXT></TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>Range: Unknown</TEXT><PARA/><TEXT>Cargo Scan Range: Unknown</TEXT><PARA/><PARA/><POP/></RDL>")
+price = 100000
+combinable = false
+item_icon = equipment\models\commodities\nn_icons\equipicon_radarjammer.3db
+shop_archetype = equipment\models\commodities\crates\crate_grey.3db
+
+[Good]
+nickname = ge_s_scanner_06
+equipment = ge_s_scanner_06
+category = equipment
+ids_name = 0 ;GENERATESTRRES("Military Scanner")
+ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Military Scanner</TEXT><PARA/><TEXT></TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>Range: 20000m</TEXT><PARA/><TEXT>Cargo Scan Range: 10000m</TEXT><PARA/><PARA/><POP/></RDL>")
+price = 15000000
+combinable = false
+item_icon = equipment\models\commodities\nn_icons\equipicon_radarjammer.3db
+shop_archetype = equipment\models\commodities\crates\crate_grey.3db
+
 
 [Good]
 nickname = armor1
@@ -1161,44 +1293,110 @@ combinable = false
 
 ;////////////////SCANNER TRACTOR MARKET////////////////
 
-;<data file="data\equipment\market_misc.ini" method="sectionappend">
-;<section>
-;[BaseGood]
-;base = Br01_02_base
-;</section>
-;<source>
-;;MarketGood = bw_fighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = pi_fighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = co_fighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = pi_freighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = bw_elite_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = pi_elite_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = bw_freighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = co_elite_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = bw_elite2_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = co_elite2_power01, 0, -1, 10, 10, 0, 1
-;
-;MarketGood = ge_fighter2_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = bh_fighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = ge_fighter4_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = bh_elite_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = ge_fighter5_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = bh_elite2_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = ge_fighter6_power01, 0, -1, 10, 10, 0, 1
-;
-;MarketGood = li_fighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = li_freighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = li_elite_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = br_fighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = br_freighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = br_elite_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = ku_fighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = ku_freighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = rh_fighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = rh_freighter_power01, 0, -1, 10, 10, 0, 1
-;MarketGood = rh_elite_power01, 0, -1, 10, 10, 0, 1
+<data file="data\equipment\market_misc.ini" method="sectionappend">
+<section>
+[BaseGood]
+base = Br01_02_base
+</section>
+<source>
+MarketGood = ge_s_scanner_01, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_02, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_03, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_tractor_01, 0, -1, 10, 10, 0, 1.25
+</source>
+</data>
 
-;</source>
-;</data>
+<data file="data\equipment\market_misc.ini" method="sectionappend">
+<section>
+[BaseGood]
+base = Hi02_02_base
+</section>
+<source>
+MarketGood = ge_s_scanner_01, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_02, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_03, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_tractor_01, 0, -1, 10, 10, 0, 1.25
+
+</source>
+</data>
+
+<data file="data\equipment\market_misc.ini" method="sectionappend">
+<section>
+[BaseGood]
+base = Ku01_03_base
+</section>
+<source>
+MarketGood = ge_s_scanner_01, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_02, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_03, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_tractor_01, 0, -1, 10, 10, 0, 1.25
+</source>
+</data>
+
+<data file="data\equipment\market_misc.ini" method="sectionappend">
+<section>
+[BaseGood]
+base = Ku04_03_base
+</section>
+<source>
+MarketGood = ge_s_scanner_01, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_02, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_03, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_tractor_01, 0, -1, 10, 10, 0, 1.25
+</source>
+</data>
+
+<data file="data\equipment\market_misc.ini" method="sectionappend">
+<section>
+[BaseGood]
+base = Li01_07_base
+</section>
+<source>
+MarketGood = ge_s_scanner_02, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_03, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_06, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_tractor_01, 0, -1, 10, 10, 0, 1.25
+</source>
+</data>
+
+<data file="data\equipment\market_misc.ini" method="sectionappend">
+<section>
+[BaseGood]
+base = Li01_14_base
+</section>
+<source>
+MarketGood = ge_s_scanner_01, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_02, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_03, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_tractor_01, 0, -1, 10, 10, 0, 1.25
+
+</source>
+</data>
+
+<data file="data\equipment\market_misc.ini" method="sectionappend">
+<section>
+[BaseGood]
+base = Rh01_02_base
+</section>
+<source>
+MarketGood = ge_s_scanner_02, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_03, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_06, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_tractor_01, 0, -1, 10, 10, 0, 1.25
+</source>
+</data>
+
+<data file="data\equipment\market_misc.ini" method="sectionappend">
+<section>
+[BaseGood]
+base = Rh02_04_base
+</section>
+<source>
+MarketGood = ge_s_scanner_01, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_02, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_scanner_03, 0, -1, 10, 10, 0, 1.25
+MarketGood = ge_s_tractor_01, 0, -1, 10, 10, 0, 1.25
+</source>
+</data>
 
 </script>
