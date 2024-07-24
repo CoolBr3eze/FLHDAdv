@@ -772,7 +772,7 @@ equipment = ge_s_scanner_06
 category = equipment
 ids_name = 0 ;GENERATESTRRES("Military Scanner")
 ids_info = 0 ;GENERATEXMLRES("<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Military Scanner</TEXT><PARA/><TEXT></TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>Range: 20000m</TEXT><PARA/><TEXT>Cargo Scan Range: 10000m</TEXT><PARA/><PARA/><POP/></RDL>")
-price = 15000000
+price = 1500000
 combinable = false
 item_icon = equipment\models\commodities\nn_icons\equipicon_radarjammer.3db
 shop_archetype = equipment\models\commodities\crates\crate_grey.3db
